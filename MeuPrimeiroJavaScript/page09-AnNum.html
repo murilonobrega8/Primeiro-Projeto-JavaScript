@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto em JavaScript!</title>
+    <link rel="stylesheet" href="style09-AnNum.css"> <!--chamada para arquivo .css externo-->
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <section>
+        <div>
+            <br>Digite e adicione valores abaixo.<br>
+            <br>Número (entre 1 e 100): 
+            <input type="number" name="fnum" id="fnum" style="width: 50px; margin-left: 10px; margin-right: 10px">
+            <input type="button" value="Adicionar!" style="width: 90px; height: 25px; border-radius: 5px" onclick="adicionar()"><br>
+            <br>
+            <br> <select name="flista" id="flista" size="8" style="text-align: center;"></select><br>
+            <br><input type="button" value="Finalizar" style="width: 80px; height: 25px; border-radius: 5px; font-weight: bold;" onclick="finalizar()">
+        </div>
+        <div id="res">
+            
+        </div>
+        <div id="btns">
+            <br><input type="button" value="<¬ Voltar" style="margin-right: 140px; width: 100px; height: 30px; border-radius: 10px" onclick="voltar()"><input type="button" value="Encerrar" style="margin-left: 140px; width: 100px; height: 30px; border-radius: 10px" onclick="encerrar()">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; CursoemVideo - github.com/murilonobrega8</p>
+    </footer>
+    <script src="script09-AnNum.js"></script> <!--chamada para arquivo .js externo-->
+</body>
+</html>

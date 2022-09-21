@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto em JavaScript!</title>
+    <link rel="stylesheet" href="style07-Tabuada.css"> <!--chamada para arquivo .css externo-->
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div>
+            <p>Número: <input type="number" name="num" id="txtn" style="height: 20px;">
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
+        </div>
+        <div id="res">
+            <select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima. </option>
+            </select>
+        </div>
+        <div id="btns">
+            <br><input type="button" value="<¬ Voltar" style="margin-right: 185px; width: 100px; height: 30px; border-radius: 10px" onclick="voltar()" > <input type="button" value="Encerrar" style="width: 100px; height: 30px; border-radius: 10px" onclick="encerrar()"> <input type="button" value="Continuar ¬>" style="width: 100px; height: 30px; border-radius: 10px" onclick="continuar()">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; CursoemVideo - github.com/murilonobrega8</p>
+    </footer>
+    <script src="script07-Tabuada.js"></script> <!--chamada para arquivo .js externo-->
+</body>
+</html>

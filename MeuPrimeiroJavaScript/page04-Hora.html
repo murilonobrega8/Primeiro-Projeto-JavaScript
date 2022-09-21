@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto em JavaScript!</title>
+    <link rel="stylesheet" href="style04-Hora.css"> <!--chamada para arquivo .css externo-->
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Hora do Dia</h1>
+    </header>
+    <section>
+        <div>
+            <br>
+            <input type="button" value="Hora Oficial" onclick="horaOf()">
+            <input type="number" name="nhora" id="nhora" style="width: 40px" min="0" max="24">
+            <input type="button" value="Mudar Hora" onclick="mudarHora()">
+        </div>
+        <div id="msg">
+            
+        </div>
+        <div id="foto">
+            <br>
+            <img id="imagem" src="fotomanha.png" alt="Foto do Dia">
+        </div>
+        <div id="btns">
+            <br><input type="button" value="<¬ Voltar" style="margin-right: 185px; width: 100px; height: 30px; border-radius: 10px" onclick="voltar()" > <input type="button" value="Encerrar" style="width: 100px; height: 30px; border-radius: 10px" onclick="encerrar()"> <input type="button" value="Continuar ¬>" style="width: 100px; height: 30px; border-radius: 10px" onclick="continuar()">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; CursoemVideo - github.com/murilonobrega8</p>
+    </footer>
+    <script src="script04-Hora.js"></script> <!--chamada para arquivo .js externo-->
+</body>
+</html>
