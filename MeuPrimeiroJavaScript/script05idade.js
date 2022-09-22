@@ -55,13 +55,13 @@ function verificar() {
 }
 
 function continuar() {
-    window.location.href="page06-Contador.html";
+    window.location.href="page06contador.html";
 }
 
 function encerrar() {
-    window.location.assign("page99-Fim.html");
+    window.location.assign("page99fim.html");
 }
 
 function voltar() {
-    window.location.href="page04-Hora.html";
+    window.location.href="page04hora.html";
 }

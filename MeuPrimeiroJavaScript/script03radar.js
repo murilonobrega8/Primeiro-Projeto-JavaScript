@@ -64,13 +64,13 @@ function sair() {
 }
 
 function continuar() {
-        window.location.href="page04-Hora.html";
+        window.location.href="page04hora.html";
 }
 
 function encerrar() {
-        window.location.assign("page99-Fim.html");
+        window.location.assign("page99fim.html");
 }
 
 function voltar() {
-        window.location.href="page02-Nome.html";
+        window.location.href="page02nome.html";
 }

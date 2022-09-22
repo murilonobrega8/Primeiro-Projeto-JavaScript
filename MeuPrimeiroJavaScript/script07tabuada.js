@@ -19,13 +19,13 @@ function tabuada() {
 }
 
 function continuar() {
-    window.location.href="page08-AnEle.html";
+    window.location.href="page08anele.html";
 }
 
 function encerrar() {
-    window.location.assign("page99-Fim.html");
+    window.location.assign("page99fim.html");
 }
 
 function voltar() {
-    window.location.href="page06-Contador.html";
+    window.location.href="page06contador.html";
 }

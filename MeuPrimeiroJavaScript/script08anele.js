@@ -19,13 +19,13 @@ function verificar() {
 }
 
 function continuar() {
-        window.location.href="page09-AnNum.html";
+        window.location.href="page09annum.html";
 }
 
 function encerrar() {
-        window.location.assign("page99-Fim.html");
+        window.location.assign("page99fim.html");
 }
 
 function voltar() {
-        window.location.href="page7-Tabuada.html";
+        window.location.href="page07tabuada.html";
 }

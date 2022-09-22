@@ -73,13 +73,13 @@ function horaOf() {
 }
 
 function continuar() {
-    window.location.href="page05-Idade.html";
+    window.location.href="page05idade.html";
 }
 
 function encerrar() {
-    window.location.assign("page99-Fim.html");
+    window.location.assign("page99fim.html");
 }
 
 function voltar() {
-    window.location.href="page03-Radar.html";
+    window.location.href="page03radar.html";
 }

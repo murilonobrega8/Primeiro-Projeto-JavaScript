@@ -24,9 +24,9 @@ function sair() {
 }
 
 function continuar() {
-        window.location.assign("page02-Nome.html");
+        window.location.assign("page02nome.html");
 }
 
 function encerrar() {
-        window.location.assign("page99-Fim.html");
+        window.location.assign("page99fim.html");
 }

@@ -37,13 +37,13 @@ function contar() {
 }
 
 function continuar() {
-    window.location.href="page07-Tabuada.html";
+    window.location.href="page07tabuada.html";
 }
 
 function encerrar() {
-    window.location.assign("page99-Fim.html");
+    window.location.assign("page99fim.html");
 }
 
 function voltar() {
-    window.location.href="page05-Idade.html";
+    window.location.href="page05idade.html";
 }

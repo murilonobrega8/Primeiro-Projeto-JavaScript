@@ -5,24 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto em JavaScript!</title>
-    <link rel="stylesheet" href="style03-Radar.css"> <!--chamada para arquivo .css externo-->
+    <link rel="stylesheet" href="style05idade.css"> <!--chamada para arquivo .css externo-->
 </head>
 <body>
     <header>
-        <h1>Radar de Velocidade</h1>
+        <h1>Verificador de Idade</h1>
     </header>
     <section>
         <div>
-            <p>Cuidado com a multa!</p>
-        </div>
-        <div id="area">
-            <p>Clique e segure!</p>
-        </div>
-        <div id="vel">
-            <p>Velocímetro: 0 km/h</p>
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0" max="2022">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
         </div>
         <div id="res">
-            <p>Velocidade permitida: 60 km/h!</p>
+            Preencha os dados acima para ver o resultado!
         </div>
         <div id="btns">
             <br><input type="button" value="<¬ Voltar" style="margin-right: 185px; width: 100px; height: 30px; border-radius: 10px" onclick="voltar()" > <input type="button" value="Encerrar" style="width: 100px; height: 30px; border-radius: 10px" onclick="encerrar()"> <input type="button" value="Continuar ¬>" style="width: 100px; height: 30px; border-radius: 10px" onclick="continuar()">
@@ -32,6 +37,6 @@
     <footer>
         <p>&copy; CursoemVideo - github.com/murilonobrega8</p>
     </footer>
-    <script src="script03-Radar.js"></script> <!--chamada para arquivo .js externo-->
+    <script src="script05idade.js"></script> <!--chamada para arquivo .js externo-->
 </body>
 </html>

@@ -6,13 +6,13 @@ function analisar() {
 }
 
 function continuar() {
-        window.location.href="page03-Radar.html";
+        window.location.href="page03radar.html";
 }
 
 function encerrar() {
-        window.location.assign("page99-Fim.html");
+        window.location.assign("page99fim.html");
 }
 
 function voltar() {
-        window.location.href="page01-Home.html";
+        window.location.href="page01home.html";
 }
