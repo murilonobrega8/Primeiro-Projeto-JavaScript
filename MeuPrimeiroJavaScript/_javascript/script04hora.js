@@ -8,17 +8,17 @@ function carregar() {
     carregarDia()
     if (hora >= 0 && hora < 12) {
         // BOM DIA 
-        img.src = 'fotomanha.png' 
+        img.src = '_images/fotomanha.png' 
         document.body.style.background = '#f4e1bc' 
         msg.innerHTML += `Agora são ${hora} horas. BOM DIA! `
     } else if (hora >= 12 && hora <= 18) {
         // BOA TARDE
-        img.src = 'fototarde.png'
+        img.src = '_images/fototarde.png'
         document.body.style.background = '#b33d1c'
         msg.innerHTML += `Agora são ${hora} horas. BOA TARDE! `
     } else {
         // BOA NOITE
-        img.src = 'fotonoite.png'
+        img.src = '_images/fotonoite.png'
         document.body.style.background = '#073d4d'
         msg.innerHTML += `Agora são ${hora} horas. BOA NOITE! `
     }
